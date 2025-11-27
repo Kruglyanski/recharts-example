@@ -2,7 +2,7 @@
   "name": "chart",
   "version": "1.0.0",
   "private": true,
-  "homepage": "https://kruglianski.github.io/<REPO_NAME>",
+  "homepage": "https://kruglyanski.github.io/recharts-example",
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
