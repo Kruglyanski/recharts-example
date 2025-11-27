@@ -1,0 +1,17 @@
+:root {
+  --bg: #eee;
+  --btn-bg: #eee;
+  --btn-text: #ccc;
+}
+
+.app {
+  background: var(--bg);
+  min-height: 100vh;
+  padding: 24px;
+  font-family: Inter, system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial;
+}
+
+#chart-root {
+   margin-top: 12 
+}
+

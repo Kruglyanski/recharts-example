@@ -1,0 +1,97 @@
+.wrapper {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 8px;
+  gap: 8px; 
+  flex-wrap: wrap;
+}
+
+.dropdown {
+  position: relative;
+}
+
+.dropdownButton {
+  display: flex;
+  align-items: center;
+  padding: 6px 10px;
+  background: var(--btn-bg);
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  cursor: pointer;
+  font-size: 14px;
+}
+
+.arrow {
+  margin-left: 6px;
+}
+
+.menu {
+  display: none;
+  position: absolute;
+  left: 0;
+  background: var(--btn-bg);
+  color: var(--btn-text);
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  padding: 6px 0;
+  z-index: 100;
+  width: 180px;
+}
+
+.dropdown:hover .menu {
+  display: block;
+}
+
+.item {
+  padding: 6px 12px;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  font-size: 14px;
+}
+
+.item:hover {
+  background: #827c7c;
+}
+
+.smallButton {
+  padding: 6px 10px;
+  border-radius: 6px;
+  border: 1px solid #ccc;
+  cursor: pointer;
+}
+
+.rightControls {
+  display: flex;
+  gap: 12px;
+  align-items: center;
+}
+
+.leftControls {
+  display: flex;
+  gap: 12px;
+  align-items: center;
+}
+
+.splitedLeftButton {
+  padding: 6px 10px;
+  border-top-left-radius: 6px;
+  border-bottom-left-radius: 6px;
+  border: 1px solid #ccc;
+  cursor: pointer;
+}
+
+.splitedRightButton {
+  padding: 6px 10px;
+  border-top-right-radius: 6px;
+  border-bottom-right-radius: 6px;
+  border: 1px solid #ccc;
+  cursor: pointer;
+}
+
+button {
+  background: var(--btn-bg);
+  color: var(--btn-text)
+}
